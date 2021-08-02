@@ -1,0 +1,1684 @@
+local NekoGUI = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Clubneko = Instance.new("TextButton")
+local Kitty = Instance.new("TextButton")
+local Catgirlneko = Instance.new("TextButton")
+local Furryclaws = Instance.new("TextButton")
+local VNDneko = Instance.new("TextButton")
+local Mogekoneko = Instance.new("TextButton")
+local Cerberusneko = Instance.new("TextButton")
+local Homeneko = Instance.new("TextButton")
+local Swatneko = Instance.new("TextButton")
+local Whiteneko = Instance.new("TextButton")
+local Pattoharoneko = Instance.new("TextButton")
+local Cyberneko = Instance.new("TextButton")
+local Sansneko = Instance.new("TextButton")
+local StrawBerryNeko = Instance.new("TextButton")
+local Tutorialneko = Instance.new("TextButton")
+local Neonneko = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local Magicneko1 = Instance.new("TextButton")
+local Badkittyneko = Instance.new("TextButton")
+local Sofneko = Instance.new("TextButton")
+local White_neko = Instance.new("TextButton")
+local kawaiicatneko1 = Instance.new("TextButton")
+local kawaiicatneko2 = Instance.new("TextButton")
+local Beastneko = Instance.new("TextButton")
+local GothicfurrynekoV1 = Instance.new("TextButton")
+local GothicfurrynekoV2 = Instance.new("TextButton")
+local Neonfurryneko = Instance.new("TextButton")
+local Toxicfurryneko = Instance.new("TextButton")
+local Snowfurryneko = Instance.new("TextButton")
+local Calmdemonneko = Instance.new("TextButton")
+local Noobneko = Instance.new("TextButton")
+local Voidclawsneko = Instance.new("TextButton")
+local Yuineko = Instance.new("TextButton")
+local Snowmanneko = Instance.new("TextButton")
+local Blueprotogenneko = Instance.new("TextButton")
+local PinkwolfnekoEDITED = Instance.new("TextButton")
+local Greenprotogenneko = Instance.new("TextButton")
+local Yellowprotogenneko = Instance.new("TextButton")
+local Redprotogenneko = Instance.new("TextButton")
+local Transfurmatedneko = Instance.new("TextButton")
+local FlowergirlnekoV1 = Instance.new("TextButton")
+local Naorineko = Instance.new("TextButton")
+local FlowergirlnekoV2 = Instance.new("TextButton")
+local Neonkittyneko = Instance.new("TextButton")
+local Catneko = Instance.new("TextButton")
+local Pinkwolfneko = Instance.new("TextButton")
+local Animegirlneko = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local R6 = Instance.new("TextButton")
+local RE = Instance.new("TextButton")
+local Open = Instance.new("TextButton")
+
+NekoGUI.Name = "NekoGUI"
+NekoGUI.Parent = game.StarterGui.MainModule
+NekoGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = NekoGUI
+Frame.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Frame.BackgroundTransparency = 0.700
+Frame.Position = UDim2.new(0.076363638, 0, 0.0830815732, 0)
+Frame.Size = UDim2.new(0, 1146, 0, 581)
+Frame.Visible = false
+
+Clubneko.Name = "Club neko"
+Clubneko.Parent = Frame
+Clubneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Clubneko.Position = UDim2.new(9.31322575e-10, 0, 0, 0)
+Clubneko.Size = UDim2.new(0, 97, 0, 50)
+Clubneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Clubneko.Font = Enum.Font.Arcade
+Clubneko.Text = "Club neko"
+Clubneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Clubneko.TextScaled = true
+Clubneko.TextSize = 14.000
+Clubneko.TextWrapped = true
+
+Kitty.Name = "Kitty"
+Kitty.Parent = Frame
+Kitty.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Kitty.Position = UDim2.new(0, 0, 0.0860585198, 0)
+Kitty.Size = UDim2.new(0, 97, 0, 50)
+Kitty.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Kitty.Font = Enum.Font.Arcade
+Kitty.Text = "Kitty"
+Kitty.TextColor3 = Color3.fromRGB(0, 0, 0)
+Kitty.TextScaled = true
+Kitty.TextSize = 14.000
+Kitty.TextWrapped = true
+
+Catgirlneko.Name = "Cat girl neko"
+Catgirlneko.Parent = Frame
+Catgirlneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Catgirlneko.Position = UDim2.new(0, 0, 0.17211704, 0)
+Catgirlneko.Size = UDim2.new(0, 97, 0, 50)
+Catgirlneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Catgirlneko.Font = Enum.Font.Arcade
+Catgirlneko.Text = "Cat girl neko"
+Catgirlneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Catgirlneko.TextScaled = true
+Catgirlneko.TextSize = 14.000
+Catgirlneko.TextWrapped = true
+
+Furryclaws.Name = "Furry claws"
+Furryclaws.Parent = Frame
+Furryclaws.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Furryclaws.Position = UDim2.new(0, 0, 0.258175552, 0)
+Furryclaws.Size = UDim2.new(0, 97, 0, 50)
+Furryclaws.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Furryclaws.Font = Enum.Font.Arcade
+Furryclaws.Text = "Furry claws"
+Furryclaws.TextColor3 = Color3.fromRGB(0, 0, 0)
+Furryclaws.TextScaled = true
+Furryclaws.TextSize = 14.000
+Furryclaws.TextWrapped = true
+
+VNDneko.Name = "VND neko"
+VNDneko.Parent = Frame
+VNDneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VNDneko.Position = UDim2.new(0, 0, 0.344234079, 0)
+VNDneko.Size = UDim2.new(0, 97, 0, 50)
+VNDneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+VNDneko.Font = Enum.Font.Arcade
+VNDneko.Text = "VND neko"
+VNDneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+VNDneko.TextScaled = true
+VNDneko.TextSize = 14.000
+VNDneko.TextWrapped = true
+
+Mogekoneko.Name = "Mogeko neko"
+Mogekoneko.Parent = Frame
+Mogekoneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Mogekoneko.Position = UDim2.new(0, 0, 0.430292606, 0)
+Mogekoneko.Size = UDim2.new(0, 97, 0, 50)
+Mogekoneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Mogekoneko.Font = Enum.Font.Arcade
+Mogekoneko.Text = "Mogeko neko"
+Mogekoneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Mogekoneko.TextScaled = true
+Mogekoneko.TextSize = 14.000
+Mogekoneko.TextWrapped = true
+
+Cerberusneko.Name = "Cerberus neko"
+Cerberusneko.Parent = Frame
+Cerberusneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Cerberusneko.Position = UDim2.new(0, 0, 0.516351104, 0)
+Cerberusneko.Size = UDim2.new(0, 97, 0, 50)
+Cerberusneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Cerberusneko.Font = Enum.Font.Arcade
+Cerberusneko.Text = "Cerberus neko"
+Cerberusneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cerberusneko.TextScaled = true
+Cerberusneko.TextSize = 14.000
+Cerberusneko.TextWrapped = true
+
+Homeneko.Name = "Home neko"
+Homeneko.Parent = Frame
+Homeneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Homeneko.Position = UDim2.new(0, 0, 0.602409661, 0)
+Homeneko.Size = UDim2.new(0, 97, 0, 50)
+Homeneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Homeneko.Font = Enum.Font.Arcade
+Homeneko.Text = "Home neko"
+Homeneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Homeneko.TextScaled = true
+Homeneko.TextSize = 14.000
+Homeneko.TextWrapped = true
+
+Swatneko.Name = "Swat neko"
+Swatneko.Parent = Frame
+Swatneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Swatneko.Position = UDim2.new(0, 0, 0.688468158, 0)
+Swatneko.Size = UDim2.new(0, 97, 0, 50)
+Swatneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Swatneko.Font = Enum.Font.Arcade
+Swatneko.Text = "Swat neko"
+Swatneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Swatneko.TextScaled = true
+Swatneko.TextSize = 14.000
+Swatneko.TextWrapped = true
+
+Whiteneko.Name = "White neko"
+Whiteneko.Parent = Frame
+Whiteneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Whiteneko.Position = UDim2.new(0, 0, 0.774526656, 0)
+Whiteneko.Size = UDim2.new(0, 97, 0, 50)
+Whiteneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Whiteneko.Font = Enum.Font.Arcade
+Whiteneko.Text = "White neko"
+Whiteneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Whiteneko.TextScaled = true
+Whiteneko.TextSize = 14.000
+Whiteneko.TextWrapped = true
+
+Pattoharoneko.Name = "Pattoharo neko"
+Pattoharoneko.Parent = Frame
+Pattoharoneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pattoharoneko.Position = UDim2.new(0, 0, 0.860585213, 0)
+Pattoharoneko.Size = UDim2.new(0, 97, 0, 50)
+Pattoharoneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Pattoharoneko.Font = Enum.Font.Arcade
+Pattoharoneko.Text = "Pattoharo neko"
+Pattoharoneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Pattoharoneko.TextScaled = true
+Pattoharoneko.TextSize = 14.000
+Pattoharoneko.TextWrapped = true
+
+Cyberneko.Name = "Cyber neko"
+Cyberneko.Parent = Frame
+Cyberneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Cyberneko.Position = UDim2.new(0.0846422315, 0, 0, 0)
+Cyberneko.Size = UDim2.new(0, 97, 0, 50)
+Cyberneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Cyberneko.Font = Enum.Font.Arcade
+Cyberneko.Text = "Cyber neko"
+Cyberneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cyberneko.TextScaled = true
+Cyberneko.TextSize = 14.000
+Cyberneko.TextWrapped = true
+
+Sansneko.Name = "Sans neko"
+Sansneko.Parent = Frame
+Sansneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sansneko.Position = UDim2.new(0.0846422315, 0, 0.0860585198, 0)
+Sansneko.Size = UDim2.new(0, 97, 0, 50)
+Sansneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Sansneko.Font = Enum.Font.Arcade
+Sansneko.Text = "Sans neko"
+Sansneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Sansneko.TextScaled = true
+Sansneko.TextSize = 14.000
+Sansneko.TextWrapped = true
+
+StrawBerryNeko.Name = "StrawBerry Neko"
+StrawBerryNeko.Parent = Frame
+StrawBerryNeko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+StrawBerryNeko.Position = UDim2.new(0.0846422315, 0, 0.17211704, 0)
+StrawBerryNeko.Size = UDim2.new(0, 97, 0, 50)
+StrawBerryNeko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+StrawBerryNeko.Font = Enum.Font.Arcade
+StrawBerryNeko.Text = "StrawBerry Neko"
+StrawBerryNeko.TextColor3 = Color3.fromRGB(0, 0, 0)
+StrawBerryNeko.TextScaled = true
+StrawBerryNeko.TextSize = 14.000
+StrawBerryNeko.TextWrapped = true
+
+Tutorialneko.Name = "Tutorial neko"
+Tutorialneko.Parent = Frame
+Tutorialneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tutorialneko.Position = UDim2.new(0.0846422315, 0, 0.258175552, 0)
+Tutorialneko.Size = UDim2.new(0, 97, 0, 50)
+Tutorialneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Tutorialneko.Font = Enum.Font.Arcade
+Tutorialneko.Text = "Tutorial neko"
+Tutorialneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tutorialneko.TextScaled = true
+Tutorialneko.TextSize = 14.000
+Tutorialneko.TextWrapped = true
+
+Neonneko.Name = "Neon neko"
+Neonneko.Parent = Frame
+Neonneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Neonneko.Position = UDim2.new(0.0846422315, 0, 0.344234079, 0)
+Neonneko.Size = UDim2.new(0, 97, 0, 50)
+Neonneko.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
+Neonneko.Font = Enum.Font.Arcade
+Neonneko.Text = "Neon neko"
+Neonneko.TextColor3 = Color3.fromRGB(255, 0, 0)
+Neonneko.TextScaled = true
+Neonneko.TextSize = 14.000
+Neonneko.TextWrapped = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0, 0, 1, 0)
+TextLabel.Size = UDim2.new(0, 1146, 0, 31)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "GUI by shuv"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextTransparency = 0.800
+TextLabel.TextWrapped = true
+
+Magicneko1.Name = "Magic neko 1"
+Magicneko1.Parent = Frame
+Magicneko1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Magicneko1.Position = UDim2.new(0.0846422315, 0, 0.430292606, 0)
+Magicneko1.Size = UDim2.new(0, 97, 0, 50)
+Magicneko1.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Magicneko1.Font = Enum.Font.Arcade
+Magicneko1.Text = "Magic neko 1"
+Magicneko1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Magicneko1.TextScaled = true
+Magicneko1.TextSize = 14.000
+Magicneko1.TextWrapped = true
+
+Badkittyneko.Name = "Bad kitty neko"
+Badkittyneko.Parent = Frame
+Badkittyneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Badkittyneko.Position = UDim2.new(0.0846422315, 0, 0.516351104, 0)
+Badkittyneko.Size = UDim2.new(0, 97, 0, 50)
+Badkittyneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Badkittyneko.Font = Enum.Font.Arcade
+Badkittyneko.Text = "Bad kitty neko"
+Badkittyneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Badkittyneko.TextScaled = true
+Badkittyneko.TextSize = 14.000
+Badkittyneko.TextWrapped = true
+
+Sofneko.Name = "Sof neko"
+Sofneko.Parent = Frame
+Sofneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sofneko.Position = UDim2.new(0.0846422315, 0, 0.602409661, 0)
+Sofneko.Size = UDim2.new(0, 97, 0, 50)
+Sofneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Sofneko.Font = Enum.Font.Arcade
+Sofneko.Text = "Sof neko"
+Sofneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Sofneko.TextScaled = true
+Sofneko.TextSize = 14.000
+Sofneko.TextWrapped = true
+
+White_neko.Name = "White_neko"
+White_neko.Parent = Frame
+White_neko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+White_neko.Position = UDim2.new(0.0846422315, 0, 0.688468158, 0)
+White_neko.Size = UDim2.new(0, 97, 0, 50)
+White_neko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+White_neko.Font = Enum.Font.Arcade
+White_neko.Text = "White_neko"
+White_neko.TextColor3 = Color3.fromRGB(0, 0, 0)
+White_neko.TextScaled = true
+White_neko.TextSize = 14.000
+White_neko.TextWrapped = true
+
+kawaiicatneko1.Name = "kawaiicat neko 1"
+kawaiicatneko1.Parent = Frame
+kawaiicatneko1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+kawaiicatneko1.Position = UDim2.new(0.0846422315, 0, 0.774526715, 0)
+kawaiicatneko1.Size = UDim2.new(0, 97, 0, 50)
+kawaiicatneko1.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+kawaiicatneko1.Font = Enum.Font.Arcade
+kawaiicatneko1.Text = "kawaiicat neko 1"
+kawaiicatneko1.TextColor3 = Color3.fromRGB(0, 0, 0)
+kawaiicatneko1.TextScaled = true
+kawaiicatneko1.TextSize = 14.000
+kawaiicatneko1.TextWrapped = true
+
+kawaiicatneko2.Name = "kawaiicat neko 2"
+kawaiicatneko2.Parent = Frame
+kawaiicatneko2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+kawaiicatneko2.Position = UDim2.new(0.0846422315, 0, 0.860585213, 0)
+kawaiicatneko2.Size = UDim2.new(0, 97, 0, 50)
+kawaiicatneko2.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+kawaiicatneko2.Font = Enum.Font.Arcade
+kawaiicatneko2.Text = "kawaiicat neko 2"
+kawaiicatneko2.TextColor3 = Color3.fromRGB(0, 0, 0)
+kawaiicatneko2.TextScaled = true
+kawaiicatneko2.TextSize = 14.000
+kawaiicatneko2.TextWrapped = true
+
+Beastneko.Name = "Beast neko"
+Beastneko.Parent = Frame
+Beastneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Beastneko.Position = UDim2.new(0.169284463, 0, 0, 0)
+Beastneko.Size = UDim2.new(0, 97, 0, 50)
+Beastneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Beastneko.Font = Enum.Font.Arcade
+Beastneko.Text = "Beast neko"
+Beastneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Beastneko.TextScaled = true
+Beastneko.TextSize = 14.000
+Beastneko.TextWrapped = true
+
+GothicfurrynekoV1.Name = "Gothicfurry nekoV1"
+GothicfurrynekoV1.Parent = Frame
+GothicfurrynekoV1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GothicfurrynekoV1.Position = UDim2.new(0.169284463, 0, 0.0860585198, 0)
+GothicfurrynekoV1.Size = UDim2.new(0, 97, 0, 50)
+GothicfurrynekoV1.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+GothicfurrynekoV1.Font = Enum.Font.Arcade
+GothicfurrynekoV1.Text = "Gothicfurry nekoV1"
+GothicfurrynekoV1.TextColor3 = Color3.fromRGB(0, 0, 0)
+GothicfurrynekoV1.TextScaled = true
+GothicfurrynekoV1.TextSize = 14.000
+GothicfurrynekoV1.TextWrapped = true
+
+GothicfurrynekoV2.Name = "Gothicfurry nekoV2"
+GothicfurrynekoV2.Parent = Frame
+GothicfurrynekoV2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GothicfurrynekoV2.Position = UDim2.new(0.169284463, 0, 0.17211704, 0)
+GothicfurrynekoV2.Size = UDim2.new(0, 97, 0, 50)
+GothicfurrynekoV2.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+GothicfurrynekoV2.Font = Enum.Font.Arcade
+GothicfurrynekoV2.Text = "Gothicfurry nekoV2"
+GothicfurrynekoV2.TextColor3 = Color3.fromRGB(0, 0, 0)
+GothicfurrynekoV2.TextScaled = true
+GothicfurrynekoV2.TextSize = 14.000
+GothicfurrynekoV2.TextWrapped = true
+
+Neonfurryneko.Name = "Neonfurry neko"
+Neonfurryneko.Parent = Frame
+Neonfurryneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Neonfurryneko.Position = UDim2.new(0.169284463, 0, 0.258175552, 0)
+Neonfurryneko.Size = UDim2.new(0, 97, 0, 50)
+Neonfurryneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Neonfurryneko.Font = Enum.Font.Arcade
+Neonfurryneko.Text = "Neonfurry neko"
+Neonfurryneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Neonfurryneko.TextScaled = true
+Neonfurryneko.TextSize = 14.000
+Neonfurryneko.TextWrapped = true
+
+Toxicfurryneko.Name = "Toxicfurry neko"
+Toxicfurryneko.Parent = Frame
+Toxicfurryneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Toxicfurryneko.Position = UDim2.new(0.169284463, 0, 0.344234079, 0)
+Toxicfurryneko.Size = UDim2.new(0, 97, 0, 50)
+Toxicfurryneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Toxicfurryneko.Font = Enum.Font.Arcade
+Toxicfurryneko.Text = "Toxicfurry neko"
+Toxicfurryneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Toxicfurryneko.TextScaled = true
+Toxicfurryneko.TextSize = 14.000
+Toxicfurryneko.TextWrapped = true
+
+Snowfurryneko.Name = "Snowfurry neko"
+Snowfurryneko.Parent = Frame
+Snowfurryneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Snowfurryneko.Position = UDim2.new(0.169284463, 0, 0.430292606, 0)
+Snowfurryneko.Size = UDim2.new(0, 97, 0, 50)
+Snowfurryneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Snowfurryneko.Font = Enum.Font.Arcade
+Snowfurryneko.Text = "Snowfurry neko"
+Snowfurryneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Snowfurryneko.TextScaled = true
+Snowfurryneko.TextSize = 14.000
+Snowfurryneko.TextWrapped = true
+
+Calmdemonneko.Name = "Calmdemon neko"
+Calmdemonneko.Parent = Frame
+Calmdemonneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Calmdemonneko.Position = UDim2.new(0.169284463, 0, 0.516351104, 0)
+Calmdemonneko.Size = UDim2.new(0, 97, 0, 50)
+Calmdemonneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Calmdemonneko.Font = Enum.Font.Arcade
+Calmdemonneko.Text = "Calmdemon neko"
+Calmdemonneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Calmdemonneko.TextScaled = true
+Calmdemonneko.TextSize = 14.000
+Calmdemonneko.TextWrapped = true
+
+Noobneko.Name = "Noob neko"
+Noobneko.Parent = Frame
+Noobneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Noobneko.Position = UDim2.new(0.169284463, 0, 0.602409661, 0)
+Noobneko.Size = UDim2.new(0, 97, 0, 50)
+Noobneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Noobneko.Font = Enum.Font.Arcade
+Noobneko.Text = "Noob neko"
+Noobneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Noobneko.TextScaled = true
+Noobneko.TextSize = 14.000
+Noobneko.TextWrapped = true
+
+Voidclawsneko.Name = "Voidclaws neko"
+Voidclawsneko.Parent = Frame
+Voidclawsneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Voidclawsneko.Position = UDim2.new(0.169284463, 0, 0.688468158, 0)
+Voidclawsneko.Size = UDim2.new(0, 97, 0, 50)
+Voidclawsneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Voidclawsneko.Font = Enum.Font.Arcade
+Voidclawsneko.Text = "Voidclaws neko"
+Voidclawsneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Voidclawsneko.TextScaled = true
+Voidclawsneko.TextSize = 14.000
+Voidclawsneko.TextWrapped = true
+
+Yuineko.Name = "Yui neko"
+Yuineko.Parent = Frame
+Yuineko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Yuineko.Position = UDim2.new(0.169284463, 0, 0.774526715, 0)
+Yuineko.Size = UDim2.new(0, 97, 0, 50)
+Yuineko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Yuineko.Font = Enum.Font.Arcade
+Yuineko.Text = "Yui neko"
+Yuineko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Yuineko.TextScaled = true
+Yuineko.TextSize = 14.000
+Yuineko.TextWrapped = true
+
+Snowmanneko.Name = "Snowman neko"
+Snowmanneko.Parent = Frame
+Snowmanneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Snowmanneko.Position = UDim2.new(0.169284463, 0, 0.860585213, 0)
+Snowmanneko.Size = UDim2.new(0, 97, 0, 50)
+Snowmanneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Snowmanneko.Font = Enum.Font.Arcade
+Snowmanneko.Text = "Snowman neko"
+Snowmanneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Snowmanneko.TextScaled = true
+Snowmanneko.TextSize = 14.000
+Snowmanneko.TextWrapped = true
+
+Blueprotogenneko.Name = "Blueprotogen neko"
+Blueprotogenneko.Parent = Frame
+Blueprotogenneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Blueprotogenneko.Position = UDim2.new(0.253926694, 0, 0, 0)
+Blueprotogenneko.Size = UDim2.new(0, 97, 0, 50)
+Blueprotogenneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Blueprotogenneko.Font = Enum.Font.Arcade
+Blueprotogenneko.Text = "Blueprotogen neko"
+Blueprotogenneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Blueprotogenneko.TextScaled = true
+Blueprotogenneko.TextSize = 14.000
+Blueprotogenneko.TextWrapped = true
+
+PinkwolfnekoEDITED.Name = "Pinkwolf neko (EDITED)"
+PinkwolfnekoEDITED.Parent = Frame
+PinkwolfnekoEDITED.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PinkwolfnekoEDITED.Position = UDim2.new(0.253926694, 0, 0.0860585198, 0)
+PinkwolfnekoEDITED.Size = UDim2.new(0, 97, 0, 50)
+PinkwolfnekoEDITED.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+PinkwolfnekoEDITED.Font = Enum.Font.Arcade
+PinkwolfnekoEDITED.Text = "Pinkwolf neko (EDITED)"
+PinkwolfnekoEDITED.TextColor3 = Color3.fromRGB(0, 0, 0)
+PinkwolfnekoEDITED.TextScaled = true
+PinkwolfnekoEDITED.TextSize = 14.000
+PinkwolfnekoEDITED.TextWrapped = true
+
+Greenprotogenneko.Name = "Greenprotogen neko"
+Greenprotogenneko.Parent = Frame
+Greenprotogenneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Greenprotogenneko.Position = UDim2.new(0.253926694, 0, 0.17211704, 0)
+Greenprotogenneko.Size = UDim2.new(0, 97, 0, 50)
+Greenprotogenneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Greenprotogenneko.Font = Enum.Font.Arcade
+Greenprotogenneko.Text = "Greenprotogen neko"
+Greenprotogenneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Greenprotogenneko.TextScaled = true
+Greenprotogenneko.TextSize = 14.000
+Greenprotogenneko.TextWrapped = true
+
+Yellowprotogenneko.Name = "Yellowprotogen neko"
+Yellowprotogenneko.Parent = Frame
+Yellowprotogenneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Yellowprotogenneko.Position = UDim2.new(0.253926694, 0, 0.258175552, 0)
+Yellowprotogenneko.Size = UDim2.new(0, 97, 0, 50)
+Yellowprotogenneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Yellowprotogenneko.Font = Enum.Font.Arcade
+Yellowprotogenneko.Text = "Yellowprotogen neko"
+Yellowprotogenneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Yellowprotogenneko.TextScaled = true
+Yellowprotogenneko.TextSize = 14.000
+Yellowprotogenneko.TextWrapped = true
+
+Redprotogenneko.Name = "Redprotogen neko"
+Redprotogenneko.Parent = Frame
+Redprotogenneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Redprotogenneko.Position = UDim2.new(0.253926694, 0, 0.344234079, 0)
+Redprotogenneko.Size = UDim2.new(0, 97, 0, 50)
+Redprotogenneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Redprotogenneko.Font = Enum.Font.Arcade
+Redprotogenneko.Text = "Redprotogen neko"
+Redprotogenneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Redprotogenneko.TextScaled = true
+Redprotogenneko.TextSize = 14.000
+Redprotogenneko.TextWrapped = true
+
+Transfurmatedneko.Name = "Transfurmated neko"
+Transfurmatedneko.Parent = Frame
+Transfurmatedneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Transfurmatedneko.Position = UDim2.new(0.253926694, 0, 0.430292606, 0)
+Transfurmatedneko.Size = UDim2.new(0, 97, 0, 50)
+Transfurmatedneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Transfurmatedneko.Font = Enum.Font.Arcade
+Transfurmatedneko.Text = "Transfurmated neko"
+Transfurmatedneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Transfurmatedneko.TextScaled = true
+Transfurmatedneko.TextSize = 14.000
+Transfurmatedneko.TextWrapped = true
+
+FlowergirlnekoV1.Name = "Flowergirl nekoV1"
+FlowergirlnekoV1.Parent = Frame
+FlowergirlnekoV1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FlowergirlnekoV1.Position = UDim2.new(0.253926694, 0, 0.516351104, 0)
+FlowergirlnekoV1.Size = UDim2.new(0, 97, 0, 50)
+FlowergirlnekoV1.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+FlowergirlnekoV1.Font = Enum.Font.Arcade
+FlowergirlnekoV1.Text = "Flower girl"
+FlowergirlnekoV1.TextColor3 = Color3.fromRGB(0, 0, 0)
+FlowergirlnekoV1.TextScaled = true
+FlowergirlnekoV1.TextSize = 14.000
+FlowergirlnekoV1.TextWrapped = true
+
+Naorineko.Name = "Naori neko"
+Naorineko.Parent = Frame
+Naorineko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Naorineko.Position = UDim2.new(0.253926694, 0, 0.602409601, 0)
+Naorineko.Size = UDim2.new(0, 97, 0, 50)
+Naorineko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Naorineko.Font = Enum.Font.Arcade
+Naorineko.Text = "Naori neko"
+Naorineko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Naorineko.TextScaled = true
+Naorineko.TextSize = 14.000
+Naorineko.TextWrapped = true
+
+FlowergirlnekoV2.Name = "Flowergirl nekoV2"
+FlowergirlnekoV2.Parent = Frame
+FlowergirlnekoV2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FlowergirlnekoV2.Position = UDim2.new(0.253926694, 0, 0.686746955, 0)
+FlowergirlnekoV2.Size = UDim2.new(0, 97, 0, 50)
+FlowergirlnekoV2.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+FlowergirlnekoV2.Font = Enum.Font.Arcade
+FlowergirlnekoV2.Text = "Flowergirl nekoV2"
+FlowergirlnekoV2.TextColor3 = Color3.fromRGB(0, 0, 0)
+FlowergirlnekoV2.TextScaled = true
+FlowergirlnekoV2.TextSize = 14.000
+FlowergirlnekoV2.TextWrapped = true
+
+Neonkittyneko.Name = "Neon kitty neko"
+Neonkittyneko.Parent = Frame
+Neonkittyneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Neonkittyneko.Position = UDim2.new(0.253926694, 0, 0.774526656, 0)
+Neonkittyneko.Size = UDim2.new(0, 97, 0, 50)
+Neonkittyneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Neonkittyneko.Font = Enum.Font.Arcade
+Neonkittyneko.Text = "Neon kitty neko"
+Neonkittyneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Neonkittyneko.TextScaled = true
+Neonkittyneko.TextSize = 14.000
+Neonkittyneko.TextWrapped = true
+
+Catneko.Name = "Cat neko"
+Catneko.Parent = Frame
+Catneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Catneko.Position = UDim2.new(0.253926694, 0, 0.860585213, 0)
+Catneko.Size = UDim2.new(0, 97, 0, 50)
+Catneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Catneko.Font = Enum.Font.Arcade
+Catneko.Text = "Cat neko"
+Catneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Catneko.TextScaled = true
+Catneko.TextSize = 14.000
+Catneko.TextWrapped = true
+
+Pinkwolfneko.Name = "Pinkwolf neko"
+Pinkwolfneko.Parent = Frame
+Pinkwolfneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pinkwolfneko.Position = UDim2.new(0.338568926, 0, 0, 0)
+Pinkwolfneko.Size = UDim2.new(0, 97, 0, 50)
+Pinkwolfneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Pinkwolfneko.Font = Enum.Font.Arcade
+Pinkwolfneko.Text = "Pinkwolf neko"
+Pinkwolfneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Pinkwolfneko.TextScaled = true
+Pinkwolfneko.TextSize = 14.000
+Pinkwolfneko.TextWrapped = true
+
+Animegirlneko.Name = "Anime girl neko"
+Animegirlneko.Parent = Frame
+Animegirlneko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Animegirlneko.Position = UDim2.new(0.338568926, 0, 0.0860585198, 0)
+Animegirlneko.Size = UDim2.new(0, 97, 0, 50)
+Animegirlneko.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Animegirlneko.Font = Enum.Font.Arcade
+Animegirlneko.Text = "Anime girl neko"
+Animegirlneko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Animegirlneko.TextScaled = true
+Animegirlneko.TextSize = 14.000
+Animegirlneko.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0, 0, 0.94664371, 0)
+TextLabel_2.Size = UDim2.new(0, 1146, 0, 31)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Neon Neko by: sefavbv"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+R6.Name = "R6"
+R6.Parent = NekoGUI
+R6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+R6.Position = UDim2.new(0, 0, 0.916918457, 0)
+R6.Size = UDim2.new(0, 65, 0, 55)
+R6.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+R6.Font = Enum.Font.Arcade
+R6.Text = "R6"
+R6.TextColor3 = Color3.fromRGB(0, 0, 0)
+R6.TextScaled = true
+R6.TextSize = 14.000
+R6.TextWrapped = true
+
+RE.Name = "RE"
+RE.Parent = NekoGUI
+RE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RE.Position = UDim2.new(0, 0, 0.829305112, 0)
+RE.Size = UDim2.new(0, 65, 0, 58)
+RE.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+RE.Font = Enum.Font.Arcade
+RE.Text = "RE"
+RE.TextColor3 = Color3.fromRGB(0, 0, 0)
+RE.TextScaled = true
+RE.TextSize = 14.000
+RE.TextWrapped = true
+
+Open.Name = "Open"
+Open.Parent = NekoGUI
+Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open.Position = UDim2.new(0, 0, 0.740181267, 0)
+Open.Size = UDim2.new(0, 65, 0, 59)
+Open.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Open.Font = Enum.Font.Arcade
+Open.Text = "Open"
+Open.TextColor3 = Color3.fromRGB(0, 0, 0)
+Open.TextScaled = true
+Open.TextSize = 14.000
+Open.TextWrapped = true
+
+-- Scripts:
+
+local function ZXEJXNF_fake_script() -- Clubneko.LocalScript 
+	local script = Instance.new('LocalScript', Clubneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(ZXEJXNF_fake_script)()
+local function UCCR_fake_script() -- Clubneko.Script 
+	local script = Instance.new('Script', Clubneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+	require(4995040572).neko3(plr.Name)
+	end)
+end
+coroutine.wrap(UCCR_fake_script)()
+local function XSKAI_fake_script() -- Frame.DragSript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(XSKAI_fake_script)()
+local function XPELCS_fake_script() -- Kitty.Script 
+	local script = Instance.new('Script', Kitty)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(3927366328).kitty(plr.Name)
+	end)
+end
+coroutine.wrap(XPELCS_fake_script)()
+local function HOCUKBH_fake_script() -- Kitty.LocalScript 
+	local script = Instance.new('LocalScript', Kitty)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(HOCUKBH_fake_script)()
+local function HQRWCW_fake_script() -- Catgirlneko.Script 
+	local script = Instance.new('Script', Catgirlneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+	require(4974660464).no(plr.Name)
+	end)
+end
+coroutine.wrap(HQRWCW_fake_script)()
+local function ETAP_fake_script() -- Catgirlneko.LocalScript 
+	local script = Instance.new('LocalScript', Catgirlneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(ETAP_fake_script)()
+local function TCYDXG_fake_script() -- Furryclaws.Script 
+	local script = Instance.new('Script', Furryclaws)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+	require(4671808399).load(plr.Name)
+	end)
+end
+coroutine.wrap(TCYDXG_fake_script)()
+local function OOPLBWT_fake_script() -- Furryclaws.LocalScript 
+	local script = Instance.new('LocalScript', Furryclaws)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(OOPLBWT_fake_script)()
+local function LNMY_fake_script() -- VNDneko.Script 
+	local script = Instance.new('Script', VNDneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(5475123749).VNDneko(plr.Name)
+	end)
+end
+coroutine.wrap(LNMY_fake_script)()
+local function ARKEM_fake_script() -- VNDneko.LocalScript 
+	local script = Instance.new('LocalScript', VNDneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(ARKEM_fake_script)()
+local function GEHQVAI_fake_script() -- Mogekoneko.Script 
+	local script = Instance.new('Script', Mogekoneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(5329735129).Mogeko(plr.Name)
+	end)
+end
+coroutine.wrap(GEHQVAI_fake_script)()
+local function MLGKYWD_fake_script() -- Mogekoneko.LocalScript 
+	local script = Instance.new('LocalScript', Mogekoneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(MLGKYWD_fake_script)()
+local function WBJTUQ_fake_script() -- Cerberusneko.Script 
+	local script = Instance.new('Script', Cerberusneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(5151292433).Cerberus(plr.Name)
+	end)
+end
+coroutine.wrap(WBJTUQ_fake_script)()
+local function WDFNWCB_fake_script() -- Cerberusneko.LocalScript 
+	local script = Instance.new('LocalScript', Cerberusneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(WDFNWCB_fake_script)()
+local function TNRJRVR_fake_script() -- Homeneko.Script 
+	local script = Instance.new('Script', Homeneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(5190464101).muwu(plr.Name)
+	end)
+end
+coroutine.wrap(TNRJRVR_fake_script)()
+local function HDLNQ_fake_script() -- Homeneko.LocalScript 
+	local script = Instance.new('LocalScript', Homeneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(HDLNQ_fake_script)()
+local function VECINEH_fake_script() -- Swatneko.Script 
+	local script = Instance.new('Script', Swatneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(5656786759).Swat(plr.Name)
+	end)
+end
+coroutine.wrap(VECINEH_fake_script)()
+local function XKCOH_fake_script() -- Swatneko.LocalScript 
+	local script = Instance.new('LocalScript', Swatneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(XKCOH_fake_script)()
+local function FGAMXZ_fake_script() -- Whiteneko.Script 
+	local script = Instance.new('Script', Whiteneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(5076898851).SexyGurl(plr.Name)
+	end)
+end
+coroutine.wrap(FGAMXZ_fake_script)()
+local function ZHGFGLI_fake_script() -- Whiteneko.LocalScript 
+	local script = Instance.new('LocalScript', Whiteneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(ZHGFGLI_fake_script)()
+local function OLHCREX_fake_script() -- Pattoharoneko.Script 
+	local script = Instance.new('Script', Pattoharoneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(5245212319).pattoharoneko(plr.Name)
+	end)
+end
+coroutine.wrap(OLHCREX_fake_script)()
+local function KKMAU_fake_script() -- Pattoharoneko.LocalScript 
+	local script = Instance.new('LocalScript', Pattoharoneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(KKMAU_fake_script)()
+local function BVDP_fake_script() -- Cyberneko.Script 
+	local script = Instance.new('Script', Cyberneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(4679462782).neko2(plr.Name)
+	end)
+end
+coroutine.wrap(BVDP_fake_script)()
+local function GAVMYJ_fake_script() -- Cyberneko.LocalScript 
+	local script = Instance.new('LocalScript', Cyberneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(GAVMYJ_fake_script)()
+local function KXBFH_fake_script() -- Sansneko.Script 
+	local script = Instance.new('Script', Sansneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(5971099245).sansneko(plr.Name)
+	end)
+end
+coroutine.wrap(KXBFH_fake_script)()
+local function ADISZO_fake_script() -- Sansneko.LocalScript 
+	local script = Instance.new('LocalScript', Sansneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(ADISZO_fake_script)()
+local function WYJXUU_fake_script() -- StrawBerryNeko.Script 
+	local script = Instance.new('Script', StrawBerryNeko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6349140608).StrawBerryNeko(plr.Name)
+	end)
+end
+coroutine.wrap(WYJXUU_fake_script)()
+local function VANGZ_fake_script() -- StrawBerryNeko.LocalScript 
+	local script = Instance.new('LocalScript', StrawBerryNeko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(VANGZ_fake_script)()
+local function BVAXXOK_fake_script() -- Tutorialneko.Script 
+	local script = Instance.new('Script', Tutorialneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6052246416).Tutorial(plr.Name)
+	end)
+end
+coroutine.wrap(BVAXXOK_fake_script)()
+local function XFHIMRE_fake_script() -- Tutorialneko.LocalScript 
+	local script = Instance.new('LocalScript', Tutorialneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(XFHIMRE_fake_script)()
+local function LSDO_fake_script() -- Neonneko.LocalScript 
+	local script = Instance.new('LocalScript', Neonneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(LSDO_fake_script)()
+local function DEXNA_fake_script() -- Neonneko.Script 
+	local script = Instance.new('Script', Neonneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6342366031).nekouwu(plr.Name)
+	end)
+end
+coroutine.wrap(DEXNA_fake_script)()
+local function BWXOA_fake_script() -- Magicneko1.Script 
+	local script = Instance.new('Script', Magicneko1)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6065149425).nekoedit(plr.Name)
+	end)
+end
+coroutine.wrap(BWXOA_fake_script)()
+local function LTGSU_fake_script() -- Magicneko1.LocalScript 
+	local script = Instance.new('LocalScript', Magicneko1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(LTGSU_fake_script)()
+local function MLETZG_fake_script() -- Badkittyneko.LocalScript 
+	local script = Instance.new('LocalScript', Badkittyneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(MLETZG_fake_script)()
+local function KEST_fake_script() -- Badkittyneko.Script 
+	local script = Instance.new('Script', Badkittyneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6065166043).badkitty(plr.Name)
+	end)
+end
+coroutine.wrap(KEST_fake_script)()
+local function MMHILJV_fake_script() -- Sofneko.LocalScript 
+	local script = Instance.new('LocalScript', Sofneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(MMHILJV_fake_script)()
+local function TZAFPX_fake_script() -- Sofneko.Script 
+	local script = Instance.new('Script', Sofneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6065564272).sof(plr.Name)
+	end)
+end
+coroutine.wrap(TZAFPX_fake_script)()
+local function IWXNH_fake_script() -- White_neko.LocalScript 
+	local script = Instance.new('LocalScript', White_neko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(IWXNH_fake_script)()
+local function ATQKXEN_fake_script() -- White_neko.Script 
+	local script = Instance.new('Script', White_neko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6065474707).white_neko(plr.Name)
+	end)
+end
+coroutine.wrap(ATQKXEN_fake_script)()
+local function HHICC_fake_script() -- kawaiicatneko1.Script 
+	local script = Instance.new('Script', kawaiicatneko1)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6070823321).kawaiicat(plr.Name)
+	end)
+end
+coroutine.wrap(HHICC_fake_script)()
+local function WZVJQ_fake_script() -- kawaiicatneko1.LocalScript 
+	local script = Instance.new('LocalScript', kawaiicatneko1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(WZVJQ_fake_script)()
+local function RNQQCSY_fake_script() -- kawaiicatneko2.Script 
+	local script = Instance.new('Script', kawaiicatneko2)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6079558786).kawaiicat(plr.Name)
+	end)
+end
+coroutine.wrap(RNQQCSY_fake_script)()
+local function YJPF_fake_script() -- kawaiicatneko2.LocalScript 
+	local script = Instance.new('LocalScript', kawaiicatneko2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(YJPF_fake_script)()
+local function XGPQIZ_fake_script() -- Beastneko.LocalScript 
+	local script = Instance.new('LocalScript', Beastneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(XGPQIZ_fake_script)()
+local function NOMYVO_fake_script() -- Beastneko.Script 
+	local script = Instance.new('Script', Beastneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6074540778).beast(plr.Name)
+	end)
+end
+coroutine.wrap(NOMYVO_fake_script)()
+local function TLXQYJG_fake_script() -- GothicfurrynekoV1.LocalScript 
+	local script = Instance.new('LocalScript', GothicfurrynekoV1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(TLXQYJG_fake_script)()
+local function VIJF_fake_script() -- GothicfurrynekoV1.Script 
+	local script = Instance.new('Script', GothicfurrynekoV1)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6079844911).gothicfurry(plr.Name)
+	end)
+end
+coroutine.wrap(VIJF_fake_script)()
+local function GSCS_fake_script() -- GothicfurrynekoV2.LocalScript 
+	local script = Instance.new('LocalScript', GothicfurrynekoV2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(GSCS_fake_script)()
+local function LQHSCX_fake_script() -- GothicfurrynekoV2.Script 
+	local script = Instance.new('Script', GothicfurrynekoV2)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6079857414).gothicfurryV2(plr.Name)
+	end)
+end
+coroutine.wrap(LQHSCX_fake_script)()
+local function DTVB_fake_script() -- Neonfurryneko.LocalScript 
+	local script = Instance.new('LocalScript', Neonfurryneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(DTVB_fake_script)()
+local function YNKR_fake_script() -- Neonfurryneko.Script 
+	local script = Instance.new('Script', Neonfurryneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6079818250).neonfurry(plr.Name)
+	end)
+end
+coroutine.wrap(YNKR_fake_script)()
+local function HWMUIVQ_fake_script() -- Toxicfurryneko.LocalScript 
+	local script = Instance.new('LocalScript', Toxicfurryneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(HWMUIVQ_fake_script)()
+local function FELOUN_fake_script() -- Toxicfurryneko.Script 
+	local script = Instance.new('Script', Toxicfurryneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6079982716).toxicfurry(plr.Name)
+	end)
+end
+coroutine.wrap(FELOUN_fake_script)()
+local function XBQMN_fake_script() -- Snowfurryneko.Script 
+	local script = Instance.new('Script', Snowfurryneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6088954127).snowfurry(plr.Name)
+	end)
+end
+coroutine.wrap(XBQMN_fake_script)()
+local function EHIZSJK_fake_script() -- Snowfurryneko.LocalScript 
+	local script = Instance.new('LocalScript', Snowfurryneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(EHIZSJK_fake_script)()
+local function EKGN_fake_script() -- Calmdemonneko.Script 
+	local script = Instance.new('Script', Calmdemonneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6104917569).calmdemon(plr.Name)
+	end)
+end
+coroutine.wrap(EKGN_fake_script)()
+local function CRWGIHH_fake_script() -- Calmdemonneko.LocalScript 
+	local script = Instance.new('LocalScript', Calmdemonneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(CRWGIHH_fake_script)()
+local function VVNNBJ_fake_script() -- Noobneko.Script 
+	local script = Instance.new('Script', Noobneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6065806555).noob(plr.Name)
+	end)
+end
+coroutine.wrap(VVNNBJ_fake_script)()
+local function BMRVM_fake_script() -- Noobneko.LocalScript 
+	local script = Instance.new('LocalScript', Noobneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(BMRVM_fake_script)()
+local function FVPBUDK_fake_script() -- Voidclawsneko.Script 
+	local script = Instance.new('Script', Voidclawsneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6105466326).voidclaws(plr.Name)
+	end)
+end
+coroutine.wrap(FVPBUDK_fake_script)()
+local function EVLBG_fake_script() -- Voidclawsneko.LocalScript 
+	local script = Instance.new('LocalScript', Voidclawsneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(EVLBG_fake_script)()
+local function TPOGTNY_fake_script() -- Yuineko.Script 
+	local script = Instance.new('Script', Yuineko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6153927212).Yui(plr.Name)
+	end)
+end
+coroutine.wrap(TPOGTNY_fake_script)()
+local function NTAMYN_fake_script() -- Yuineko.LocalScript 
+	local script = Instance.new('LocalScript', Yuineko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(NTAMYN_fake_script)()
+local function QKYH_fake_script() -- Snowmanneko.Script 
+	local script = Instance.new('Script', Snowmanneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6097633865).snowman(plr.Name)
+	end)
+end
+coroutine.wrap(QKYH_fake_script)()
+local function AADTCB_fake_script() -- Snowmanneko.LocalScript 
+	local script = Instance.new('LocalScript', Snowmanneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(AADTCB_fake_script)()
+local function KHNJCX_fake_script() -- Blueprotogenneko.Script 
+	local script = Instance.new('Script', Blueprotogenneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6089517678).blueprotogen(plr.Name)
+	end)
+end
+coroutine.wrap(KHNJCX_fake_script)()
+local function PHYG_fake_script() -- Blueprotogenneko.LocalScript 
+	local script = Instance.new('LocalScript', Blueprotogenneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(PHYG_fake_script)()
+local function NCBG_fake_script() -- PinkwolfnekoEDITED.Script 
+	local script = Instance.new('Script', PinkwolfnekoEDITED)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6147663708).PinkWolf(plr.Name)
+	end)
+end
+coroutine.wrap(NCBG_fake_script)()
+local function LQWZOPJ_fake_script() -- PinkwolfnekoEDITED.LocalScript 
+	local script = Instance.new('LocalScript', PinkwolfnekoEDITED)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(LQWZOPJ_fake_script)()
+local function PPZSD_fake_script() -- Greenprotogenneko.Script 
+	local script = Instance.new('Script', Greenprotogenneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6089498479).greenprotogen(plr.Name)
+	end)
+end
+coroutine.wrap(PPZSD_fake_script)()
+local function UTJWO_fake_script() -- Greenprotogenneko.LocalScript 
+	local script = Instance.new('LocalScript', Greenprotogenneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(UTJWO_fake_script)()
+local function ODYYTHG_fake_script() -- Yellowprotogenneko.Script 
+	local script = Instance.new('Script', Yellowprotogenneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6089482154).yellowprotogen(plr.Name)
+	end)
+end
+coroutine.wrap(ODYYTHG_fake_script)()
+local function MOOP_fake_script() -- Yellowprotogenneko.LocalScript 
+	local script = Instance.new('LocalScript', Yellowprotogenneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(MOOP_fake_script)()
+local function STNQFRT_fake_script() -- Redprotogenneko.Script 
+	local script = Instance.new('Script', Redprotogenneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6089590944).redprotogen(plr.Name)
+	end)
+end
+coroutine.wrap(STNQFRT_fake_script)()
+local function OHFXDJL_fake_script() -- Redprotogenneko.LocalScript 
+	local script = Instance.new('LocalScript', Redprotogenneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(OHFXDJL_fake_script)()
+local function NMVTLEW_fake_script() -- Transfurmatedneko.Script 
+	local script = Instance.new('Script', Transfurmatedneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6088695681):brrr(plr.Name)
+	end)
+end
+coroutine.wrap(NMVTLEW_fake_script)()
+local function IIRS_fake_script() -- Transfurmatedneko.LocalScript 
+	local script = Instance.new('LocalScript', Transfurmatedneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(IIRS_fake_script)()
+local function OQHURX_fake_script() -- FlowergirlnekoV1.LocalScript 
+	local script = Instance.new('LocalScript', FlowergirlnekoV1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(OQHURX_fake_script)()
+local function NITJDY_fake_script() -- FlowergirlnekoV1.Script 
+	local script = Instance.new('Script', FlowergirlnekoV1)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6150702316).load(plr.Name)
+	end)
+end
+coroutine.wrap(NITJDY_fake_script)()
+local function EZIVGA_fake_script() -- Naorineko.LocalScript 
+	local script = Instance.new('LocalScript', Naorineko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(EZIVGA_fake_script)()
+local function TCUFE_fake_script() -- Naorineko.Script 
+	local script = Instance.new('Script', Naorineko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6149695253).load(plr.Name)
+	end)
+end
+coroutine.wrap(TCUFE_fake_script)()
+local function MJWO_fake_script() -- FlowergirlnekoV2.LocalScript 
+	local script = Instance.new('LocalScript', FlowergirlnekoV2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(MJWO_fake_script)()
+local function KSQHBZV_fake_script() -- FlowergirlnekoV2.Script 
+	local script = Instance.new('Script', FlowergirlnekoV2)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6150408403).load(plr.Name)
+	end)
+end
+coroutine.wrap(KSQHBZV_fake_script)()
+local function EUBBPW_fake_script() -- Neonkittyneko.LocalScript 
+	local script = Instance.new('LocalScript', Neonkittyneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(EUBBPW_fake_script)()
+local function WKDC_fake_script() -- Neonkittyneko.Script 
+	local script = Instance.new('Script', Neonkittyneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6150668377).load(plr.Name)
+	end)
+end
+coroutine.wrap(WKDC_fake_script)()
+local function OLCA_fake_script() -- Catneko.LocalScript 
+	local script = Instance.new('LocalScript', Catneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(OLCA_fake_script)()
+local function RUPJTN_fake_script() -- Catneko.Script 
+	local script = Instance.new('Script', Catneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(3468474621).cat(plr.Name)
+	end)
+end
+coroutine.wrap(RUPJTN_fake_script)()
+local function LGUZV_fake_script() -- Pinkwolfneko.LocalScript 
+	local script = Instance.new('LocalScript', Pinkwolfneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(LGUZV_fake_script)()
+local function GHBH_fake_script() -- Pinkwolfneko.Script 
+	local script = Instance.new('Script', Pinkwolfneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(5981084340).PinkWolf(plr.Name)
+	end)
+end
+coroutine.wrap(GHBH_fake_script)()
+local function EVVDMTH_fake_script() -- Animegirlneko.Script 
+	local script = Instance.new('Script', Animegirlneko)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3041175937):r6(plr.Name)
+		require(6098779689).waifuwu(plr.Name)
+	end)
+end
+coroutine.wrap(EVVDMTH_fake_script)()
+local function WZVDBE_fake_script() -- Animegirlneko.LocalScript 
+	local script = Instance.new('LocalScript', Animegirlneko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(WZVDBE_fake_script)()
+local function MCIYCE_fake_script() -- Frame.SmoothScroll 
+	local script = Instance.new('LocalScript', Frame)
+
+	
+	
+	-- get the 'content' scrolling frame, aka the scrolling frame with all the content inside
+	-- if smoothing is enabled, disable scrolling
+	local content = script.Parent
+	content.ScrollingEnabled = not script.SmoothingEnabled.Value 
+	
+	-- create the 'input' scrolling frame, aka the scrolling frame which receives user input
+	-- if smoothing is enabled, enable scrolling
+	local input = content:Clone()
+	input:ClearAllChildren()
+	input.BackgroundTransparency = 1
+	input.ScrollBarImageTransparency = 1
+	input.ZIndex = content.ZIndex + 1
+	input.Name = "_smoothinputframe"
+	input.ScrollingEnabled = script.SmoothingEnabled.Value 
+	input.Parent = content.Parent
+	
+	-- bind to SmoothingEnabled
+	script.SmoothingEnabled:GetPropertyChangedSignal("Value"):Connect(function()
+		-- move input canvas position to content canvas position on re-enable
+		if script.SmoothingEnabled.Value then
+			input.CanvasPosition = content.CanvasPosition
+		end
+		content.ScrollingEnabled = not script.SmoothingEnabled.Value 
+		input.ScrollingEnabled = script.SmoothingEnabled.Value 
+	end)
+	
+	-- fallback for when smoothing is disabled and the input frame position is set
+	input:GetPropertyChangedSignal("CanvasPosition"):Connect(function()
+		if not script.SmoothingEnabled.Value then
+			content.CanvasPosition = input.CanvasPosition
+		end
+	end)
+	
+	-- set InputFrame to the input scrolling frame
+	script.InputFrame.Value = input
+	
+	-- keep input frame in sync with content frame
+	local function syncProperty(prop)
+		content:GetPropertyChangedSignal(prop):Connect(function()
+			if prop == "ZIndex" then
+				-- keep the input frame on top!
+				input[prop] = content[prop] + 1
+			else
+				input[prop] = content[prop]
+			end
+		end)
+	end
+	
+	syncProperty "CanvasSize"
+	syncProperty "Position"
+	syncProperty "Rotation"
+	syncProperty "ScrollingDirection"
+	syncProperty "ScrollBarThickness"
+	syncProperty "BorderSizePixel"
+	syncProperty "ElasticBehavior"
+	syncProperty "SizeConstraint"
+	syncProperty "ZIndex"
+	syncProperty "BorderColor3"
+	syncProperty "Size"
+	syncProperty "AnchorPoint"
+	syncProperty "Visible"
+	
+	
+	-- create a render stepped connection to interpolate the content frame position to the input frame position
+	local smoothConnection = game:GetService("RunService").RenderStepped:Connect(function()
+		if script.SmoothingEnabled.Value then
+			local a = content.CanvasPosition
+			local b = input.CanvasPosition
+			local c = script.SmoothingFactor.Value
+			local d = (b - a) * c + a
+			content.CanvasPosition = d
+		end
+	end)
+	
+	-- destroy everything when the frame is destroyed
+	content.AncestryChanged:Connect(function()
+		if content.Parent == nil then
+			input:Destroy()
+			smoothConnection:Disconnect()
+		end
+	end)
+end
+coroutine.wrap(MCIYCE_fake_script)()
+local function SXRCJZO_fake_script() -- R6.Script 
+	local script = Instance.new('Script', R6)
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+			require(3041175937):r6(plr.Name)
+	end)
+end
+coroutine.wrap(SXRCJZO_fake_script)()
+local function GDKOMZO_fake_script() -- R6.LocalScript 
+	local script = Instance.new('LocalScript', R6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(GDKOMZO_fake_script)()
+local function GNVE_fake_script() -- RE.LocalScript 
+	local script = Instance.new('LocalScript', RE)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	script.RemoteEvent:FireServer("Request")
+	end)
+end
+coroutine.wrap(GNVE_fake_script)()
+local function FHNYA_fake_script() -- Open.LocalScript [DONT DELETE] 
+	local script = Instance.new('LocalScript', Open)
+
+	local frame = script.Parent.Parent.Frame
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+			button.Text = "Close" -- Button text when opening the frame
+		else
+			frame.Visible = false
+			button.Text = "Open" -- Button text when closing the frame
+		end
+	end)
+end
+coroutine.wrap(FHNYA_fake_script)()
