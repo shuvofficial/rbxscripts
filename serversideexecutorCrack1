@@ -1,0 +1,1421 @@
+--[[
+Crack by
+ _______                            
+(  ____ \|\     /||\     /||\     /|
+| (    \/| )   ( || )   ( || )   ( |
+| (_____ | (___) || |   | || |   | |
+(_____  )|  ___  || |   | |( (   ) )
+      ) || (   ) || |   | | \ \_/ / 
+/\____) || )   ( || (___) |  \   /  
+\_______)|/     \|(_______)   \_/   
+
+   _   _   __    _______  __    _______ 
+  ( ) ( ) /  \  (  __   )/  \  (  __   )
+ _| |_| |_\/) ) | (  )  |\/) ) | (  )  |
+(_   _   _) | | | | /   |  | | | | /   |
+ _| (_) |_  | | | (/ /) |  | | | (/ /) |
+(_   _   _) | | |   / | |  | | |   / | |
+  | | | | __) (_|  (__) |__) (_|  (__) |
+  (_) (_) \____/(_______)\____/(_______)
+                                        
+                                   
+--]]
+local Exilium = Instance.new("ScreenGui")
+local DragBar = Instance.new("Frame")
+local Main = Instance.new("Frame")
+local UpperLine = Instance.new("Frame")
+local Inner = Instance.new("Frame")
+local Home = Instance.new("Frame")
+local Executor = Instance.new("Frame")
+local EditorFrame = Instance.new("ScrollingFrame")
+local Source = Instance.new("TextBox")
+local LowerFrame = Instance.new("Frame")
+local Execute = Instance.new("TextButton")
+local Circle = Instance.new("ImageLabel")
+local Clear = Instance.new("TextButton")
+local Circle_2 = Instance.new("ImageLabel")
+local R6 = Instance.new("TextButton")
+local Circle_3 = Instance.new("ImageLabel")
+local R6_2 = Instance.new("Folder")
+local HideCode = Instance.new("TextButton")
+local Circle_4 = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local Top = Instance.new("Frame")
+local TopFrame = Instance.new("Frame")
+local EXILIUM = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local Build = Instance.new("TextLabel")
+local Gradient = Instance.new("UIGradient")
+local Welcome = Instance.new("Frame")
+local Gradient_2 = Instance.new("UIGradient")
+local Corner = Instance.new("UICorner")
+local E = Instance.new("TextLabel")
+local x = Instance.new("TextLabel")
+
+Exilium.Name = "Exilium"
+Exilium.Parent = game.StarterGui.MainModule
+Exilium.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Exilium.ResetOnSpawn = false
+
+DragBar.Name = "DragBar"
+DragBar.Parent = Exilium
+DragBar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DragBar.BackgroundTransparency = 1.000
+DragBar.Position = UDim2.new(0.270777494, 0, 0.205479458, 0)
+DragBar.Size = UDim2.new(0, 685, 0, 55)
+
+Main.Name = "Main"
+Main.Parent = DragBar
+Main.Active = true
+Main.BackgroundColor3 = Color3.fromRGB(26, 30, 35)
+Main.BorderColor3 = Color3.fromRGB(25, 28, 36)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.047497943, 0, -35, 0)
+Main.Size = UDim2.new(0, 685, 0, 402)
+
+UpperLine.Name = "UpperLine"
+UpperLine.Parent = Main
+UpperLine.BackgroundColor3 = Color3.fromRGB(58, 105, 181)
+UpperLine.BorderColor3 = Color3.fromRGB(58, 105, 181)
+UpperLine.BorderSizePixel = 0
+UpperLine.Position = UDim2.new(0, 0, 0.131840795, 0)
+UpperLine.Size = UDim2.new(0, 685, 0, 2)
+
+Inner.Name = "Inner"
+Inner.Parent = Main
+Inner.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Inner.BackgroundTransparency = 1.000
+Inner.Position = UDim2.new(0.197080299, 0, 0.13681592, 0)
+Inner.Size = UDim2.new(0, 550, 0, 347)
+Inner.ZIndex = 2
+
+Home.Name = "Home"
+Home.Parent = Inner
+Home.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Home.BackgroundTransparency = 1.000
+Home.Position = UDim2.new(0, 0, 0.0922190174, 0)
+Home.Size = UDim2.new(0, 550, 0, 315)
+Home.Visible = false
+Home.ZIndex = 2
+
+Executor.Name = "Executor"
+Executor.Parent = Inner
+Executor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Executor.BackgroundTransparency = 1.000
+Executor.Position = UDim2.new(0, 0, 0.0922190174, 0)
+Executor.Size = UDim2.new(0, 550, 0, 250)
+Executor.ZIndex = 2
+
+EditorFrame.Name = "EditorFrame"
+EditorFrame.Parent = Executor
+EditorFrame.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+EditorFrame.BackgroundTransparency = 1.000
+EditorFrame.BorderColor3 = Color3.fromRGB(61, 61, 61)
+EditorFrame.BorderSizePixel = 0
+EditorFrame.Position = UDim2.new(-0.24545455, 0, 0.0320000015, 0)
+EditorFrame.Size = UDim2.new(0, 685, 0, 242)
+EditorFrame.ZIndex = 3
+EditorFrame.BottomImage = "rbxassetid://148970562"
+EditorFrame.CanvasSize = UDim2.new(0, 0, 0, 0)
+EditorFrame.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
+EditorFrame.MidImage = "rbxassetid://148970562"
+EditorFrame.ScrollBarThickness = 5
+EditorFrame.TopImage = "rbxassetid://148970562"
+
+Source.Name = "Source"
+Source.Parent = EditorFrame
+Source.BackgroundColor3 = Color3.fromRGB(19, 22, 26)
+Source.BackgroundTransparency = 1.000
+Source.BorderColor3 = Color3.fromRGB(27, 32, 38)
+Source.Position = UDim2.new(0, 23, 0, 4)
+Source.Size = UDim2.new(0.955673516, 0, 0.983471096, 0)
+Source.ZIndex = 3
+Source.ClearTextOnFocus = false
+Source.Font = Enum.Font.Ubuntu
+Source.PlaceholderColor3 = Color3.fromRGB(93, 118, 125)
+Source.Text = ""
+Source.TextColor3 = Color3.fromRGB(204, 204, 204)
+Source.TextSize = 15.000
+Source.TextWrapped = true
+Source.TextXAlignment = Enum.TextXAlignment.Left
+Source.TextYAlignment = Enum.TextYAlignment.Top
+
+LowerFrame.Name = "LowerFrame"
+LowerFrame.Parent = Executor
+LowerFrame.BackgroundColor3 = Color3.fromRGB(30, 35, 40)
+LowerFrame.BackgroundTransparency = 0.700
+LowerFrame.BorderColor3 = Color3.fromRGB(30, 35, 40)
+LowerFrame.Position = UDim2.new(-0.24545455, 0, 1, 0)
+LowerFrame.Size = UDim2.new(0, 685, 0, 65)
+
+Execute.Name = "Execute"
+Execute.Parent = LowerFrame
+Execute.BackgroundColor3 = Color3.fromRGB(26, 30, 37)
+Execute.BorderColor3 = Color3.fromRGB(24, 46, 79)
+Execute.BorderSizePixel = 0
+Execute.Position = UDim2.new(0.0199999996, 0, 0.261538476, 0)
+Execute.Size = UDim2.new(0, 114, 0, 32)
+Execute.AutoButtonColor = false
+Execute.Font = Enum.Font.TitilliumWeb
+Execute.Text = "<b>EXECUTE</b>"
+Execute.TextColor3 = Color3.fromRGB(140, 163, 189)
+Execute.TextSize = 23.000
+
+Circle.Name = "Circle"
+Circle.Parent = game.StarterGui.MainModule.Exilium.DragBar.Main.Inner.Executor.LowerFrame.Execute.RippleEffect
+Circle.AnchorPoint = Vector2.new(0.5, 0.5)
+Circle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Circle.BackgroundTransparency = 1.000
+Circle.Position = UDim2.new(0.5, 0, 0.5, 0)
+Circle.ZIndex = 10
+Circle.Image = "rbxassetid://266543268"
+Circle.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Circle.ImageTransparency = 0.500
+
+Clear.Name = "Clear"
+Clear.Parent = LowerFrame
+Clear.BackgroundColor3 = Color3.fromRGB(26, 30, 37)
+Clear.BorderColor3 = Color3.fromRGB(24, 46, 79)
+Clear.BorderSizePixel = 0
+Clear.Position = UDim2.new(0.200199038, 0, 0.261538446, 0)
+Clear.Size = UDim2.new(0, 114, 0, 32)
+Clear.AutoButtonColor = false
+Clear.Font = Enum.Font.TitilliumWeb
+Clear.Text = "<b>CLEAR</b>"
+Clear.TextColor3 = Color3.fromRGB(140, 163, 189)
+Clear.TextSize = 23.000
+
+Circle_2.Name = "Circle"
+Circle_2.Parent = game.StarterGui.MainModule.Exilium.DragBar.Main.Inner.Executor.LowerFrame.Clear.RippleEffect
+Circle_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Circle_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Circle_2.BackgroundTransparency = 1.000
+Circle_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+Circle_2.ZIndex = 10
+Circle_2.Image = "rbxassetid://266543268"
+Circle_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Circle_2.ImageTransparency = 0.500
+
+R6.Name = "R6"
+R6.Parent = LowerFrame
+R6.BackgroundColor3 = Color3.fromRGB(26, 30, 37)
+R6.BorderColor3 = Color3.fromRGB(24, 46, 79)
+R6.BorderSizePixel = 0
+R6.Position = UDim2.new(0.747644246, 0, 0.261538476, 0)
+R6.Size = UDim2.new(0, 56, 0, 31)
+R6.AutoButtonColor = false
+R6.Font = Enum.Font.TitilliumWeb
+R6.Text = "<b>R6</b>"
+R6.TextColor3 = Color3.fromRGB(140, 163, 189)
+R6.TextSize = 23.000
+
+Circle_3.Name = "Circle"
+Circle_3.Parent = game.StarterGui.MainModule.Exilium.DragBar.Main.Inner.Executor.LowerFrame["R6"].RippleEffect
+Circle_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Circle_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Circle_3.BackgroundTransparency = 1.000
+Circle_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+Circle_3.ZIndex = 10
+Circle_3.Image = "rbxassetid://266543268"
+Circle_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Circle_3.ImageTransparency = 0.500
+
+R6_2.Name = "R6"
+R6_2.Parent = R6
+
+HideCode.Name = "HideCode"
+HideCode.Parent = LowerFrame
+HideCode.BackgroundColor3 = Color3.fromRGB(26, 30, 37)
+HideCode.BorderColor3 = Color3.fromRGB(24, 46, 79)
+HideCode.BorderSizePixel = 0
+HideCode.Position = UDim2.new(0.380583942, 0, 0.261538476, 0)
+HideCode.Size = UDim2.new(0, 114, 0, 32)
+HideCode.AutoButtonColor = false
+HideCode.Font = Enum.Font.TitilliumWeb
+HideCode.Text = "<b>HIDE-CODE</b>"
+HideCode.TextColor3 = Color3.fromRGB(140, 163, 189)
+HideCode.TextSize = 23.000
+
+Circle_4.Name = "Circle"
+Circle_4.Parent = game.StarterGui.MainModule.Exilium.DragBar.Main.Inner.Executor.LowerFrame.HideCode.RippleEffect
+Circle_4.AnchorPoint = Vector2.new(0.5, 0.5)
+Circle_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Circle_4.BackgroundTransparency = 1.000
+Circle_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+Circle_4.ZIndex = 10
+Circle_4.Image = "rbxassetid://266543268"
+Circle_4.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Circle_4.ImageTransparency = 0.500
+
+TextLabel.Parent = Executor
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.24545455, 0, 0, 3)
+TextLabel.Size = UDim2.new(0, 24, 0, 32)
+TextLabel.Font = Enum.Font.Nunito
+TextLabel.Text = "1"
+TextLabel.TextColor3 = Color3.fromRGB(129, 149, 185)
+TextLabel.TextSize = 16.000
+
+Top.Name = "Top"
+Top.Parent = Inner
+Top.BackgroundColor3 = Color3.fromRGB(30, 35, 40)
+Top.BorderColor3 = Color3.fromRGB(30, 35, 40)
+Top.BorderSizePixel = 0
+Top.Position = UDim2.new(-0.24545455, 0, 0, 0)
+Top.Size = UDim2.new(0, 685, 0, 32)
+Top.ZIndex = 2
+
+TopFrame.Name = "TopFrame"
+TopFrame.Parent = Main
+TopFrame.BackgroundColor3 = Color3.fromRGB(30, 35, 40)
+TopFrame.BorderColor3 = Color3.fromRGB(30, 35, 40)
+TopFrame.BorderSizePixel = 0
+TopFrame.Size = UDim2.new(0, 685, 0, 53)
+
+EXILIUM.Name = "EXILIUM"
+EXILIUM.Parent = TopFrame
+EXILIUM.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EXILIUM.BackgroundTransparency = 1.000
+EXILIUM.Position = UDim2.new(0, 0, 0.185534492, 0)
+EXILIUM.Size = UDim2.new(0, 126, 0, 33)
+EXILIUM.Font = Enum.Font.RobotoCondensed
+EXILIUM.Text = "EXILIUM | Cracked By shuv#1010"
+EXILIUM.TextColor3 = Color3.fromRGB(61, 117, 214)
+EXILIUM.TextScaled = true
+EXILIUM.TextSize = 24.000
+EXILIUM.TextStrokeColor3 = Color3.fromRGB(57, 107, 198)
+EXILIUM.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = TopFrame
+Close.BackgroundColor3 = Color3.fromRGB(27, 32, 39)
+Close.BorderColor3 = Color3.fromRGB(27, 32, 39)
+Close.Position = UDim2.new(0.937226295, 0, 0.169811323, 0)
+Close.Size = UDim2.new(0, 30, 0, 30)
+Close.AutoButtonColor = false
+Close.Font = Enum.Font.SourceSans
+Close.Text = "<b>X</b>"
+Close.TextColor3 = Color3.fromRGB(140, 163, 189)
+Close.TextSize = 18.000
+
+UICorner.CornerRadius = UDim.new(1, 0)
+UICorner.Parent = Close
+
+Build.Name = "Build"
+Build.Parent = TopFrame
+Build.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Build.BackgroundTransparency = 1.000
+Build.Position = UDim2.new(0.89343065, 0, 7.1505661, 0)
+Build.Size = UDim2.new(0, 73, 0, 17)
+Build.Font = Enum.Font.SourceSansBold
+Build.Text = "<b>Alpha</b>"
+Build.TextColor3 = Color3.fromRGB(44, 93, 171)
+Build.TextScaled = true
+Build.TextSize = 15.000
+Build.TextStrokeColor3 = Color3.fromRGB(166, 187, 212)
+Build.TextWrapped = true
+
+Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(121, 137, 211)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(235, 250, 255))}
+Gradient.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.60), NumberSequenceKeypoint.new(1.00, 0.60)}
+Gradient.Name = "Gradient"
+Gradient.Parent = TopFrame
+
+Welcome.Name = "Welcome"
+Welcome.Parent = Exilium
+Welcome.BackgroundColor3 = Color3.fromRGB(30, 35, 40)
+Welcome.BorderColor3 = Color3.fromRGB(30, 35, 40)
+Welcome.Position = UDim2.new(0.463136733, 0, 0.386605769, 0)
+Welcome.Selectable = true
+Welcome.Size = UDim2.new(0, 177, 0, 173)
+Welcome.ZIndex = 0
+
+Gradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(67, 123, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(61, 61, 61))}
+Gradient_2.Name = "Gradient"
+Gradient_2.Parent = Welcome
+
+Corner.Name = "Corner"
+Corner.Parent = Welcome
+
+E.Name = "E"
+E.Parent = Welcome
+E.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+E.BackgroundTransparency = 1.000
+E.Position = UDim2.new(0.0564971752, 0, 0, 0)
+E.Size = UDim2.new(0, 120, 0, 167)
+E.ZIndex = 0
+E.Font = Enum.Font.SourceSansSemibold
+E.Text = "<b>E</b>"
+E.TextColor3 = Color3.fromRGB(53, 107, 255)
+E.TextSize = 100.000
+E.TextWrapped = true
+
+x.Name = "x"
+x.Parent = Welcome
+x.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+x.BackgroundTransparency = 1.000
+x.Position = UDim2.new(0.418079108, 0, 0.255780339, 0)
+x.Size = UDim2.new(0, 69, 0, 77)
+x.Font = Enum.Font.SourceSansSemibold
+x.Text = "<b>x</b>"
+x.TextColor3 = Color3.fromRGB(16, 35, 80)
+x.TextSize = 80.000
+x.TextStrokeColor3 = Color3.fromRGB(16, 35, 80)
+x.TextWrapped = true
+
+-- Scripts:
+
+local function JIDVEL_fake_script() -- DragBar.Dragify 
+	local script = Instance.new('LocalScript', DragBar)
+
+	-- Decompiled with the Synapse X Luau decompiler.
+	
+	local l__UserInputService__1 = game:GetService("UserInputService");
+	function dragify(p1)
+		dragToggle = nil;
+		dragInput = nil;
+		dragStart = nil;
+		function updateInput(p2)
+			local v1 = p2.Position - dragStart;
+			game:GetService("TweenService"):Create(p1, TweenInfo.new(0.21), {
+				Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + v1.X, startPos.Y.Scale, startPos.Y.Offset + v1.Y)
+			}):Play();
+		end;
+		p1.InputBegan:Connect(function(p3)
+			if p3.UserInputType ~= Enum.UserInputType.MouseButton1 then
+				if p3.UserInputType == Enum.UserInputType.Touch then
+					if l__UserInputService__1:GetFocusedTextBox() == nil then
+						dragToggle = true;
+						dragStart = p3.Position;
+						startPos = p1.Position;
+						p3.Changed:Connect(function()
+							if p3.UserInputState == Enum.UserInputState.End then
+								dragToggle = false;
+							end;
+						end);
+					end;
+				end;
+			elseif l__UserInputService__1:GetFocusedTextBox() == nil then
+				dragToggle = true;
+				dragStart = p3.Position;
+				startPos = p1.Position;
+				p3.Changed:Connect(function()
+					if p3.UserInputState == Enum.UserInputState.End then
+						dragToggle = false;
+					end;
+				end);
+			end;
+		end);
+		p1.InputChanged:Connect(function(p4)
+			if p4.UserInputType ~= Enum.UserInputType.MouseMovement then
+				if p4.UserInputType == Enum.UserInputType.Touch then
+					dragInput = p4;
+				end;
+			else
+				dragInput = p4;
+			end;
+		end);
+		game:GetService("UserInputService").InputChanged:Connect(function(p5)
+			if p5 == dragInput then
+				if dragToggle then
+					updateInput(p5);
+				end;
+			end;
+		end);
+	end;
+	dragify(script.Parent);
+	
+end
+coroutine.wrap(JIDVEL_fake_script)()
+local function TYWDJN_fake_script() -- Source.LocalScript 
+	local script = Instance.new('LocalScript', Source)
+
+	local numValue = script.Parent.Value
+	local TBX = script.Parent
+	
+	function colorCode()
+		local Text = TBX.Text
+		--local newRequireString = "require"
+		local convertedNumText = tonumber(Text)
+		local convertedStrText = tostring(Text) 
+		if Text == convertedStrText then
+			TBX.TextColor3 = Color3.fromRGB(129, 237, 248)
+			
+		if convertedNumText >= 0 then
+			TBX.TextColor3 = Color3.fromRGB(231,218,68)
+			end
+		end
+	end
+	TBX:GetPropertyChangedSignal("Text"):Connect(colorCode)
+end
+coroutine.wrap(TYWDJN_fake_script)()
+local function TZBDZ_fake_script() -- Execute.RippleEffect 
+	local script = Instance.new('LocalScript', Execute)
+
+	-- NOTE: Make sure the ZIndex of the button used is higher than other GUI parts behind
+	--       it, or this will not work correctly!
+	
+	
+	
+	
+	local RippleColor        = Color3.fromRGB(0, 0, 0) -- RGB Color of the ripple effect, you can change it.
+	local RippleTransparency = 0.9 ---------------------------- Max is 1, Min is 0
+	local PixelSize          = 2000 --------------------------- The Max size of the ripple in pixels
+	local TimeLength         = 0.65 ---------------------------- How long the ripple animation is
+	local FadeLength         = 0.6 ---------------------------- How long it takes for the ripple to fade out
+	
+	
+	
+	-- Do NOT change anything in the script if you want it to work, unless you know how to script...
+	
+	
+	
+	-- Script Below
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	local frame = script.Parent
+	local rgb = Color3.fromRGB
+	local ud2 = UDim2.new
+	repeat
+		wait()
+	until game.Players.LocalPlayer
+	local plr = game.Players.LocalPlayer
+	local mouse = plr:GetMouse()
+	
+	frame.ClipsDescendants = true
+	frame.AutoButtonColor = false
+	
+	
+	function tweenInRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				TimeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				Size = ud2(0, PixelSize, 0, PixelSize);
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+		end)
+	end
+	
+	function fadeOutRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				FadeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				ImageTransparency = 1;
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+			wait(FadeLength + 0.1)
+			ripple:Destroy()
+		end)
+	end
+	
+	frame.MouseButton1Down:Connect(function()
+		local done = false
+		local ripple = script.Circle:Clone()
+		ripple.Parent = frame
+		ripple.ZIndex = frame.ZIndex + 1
+		ripple.ImageColor3 = RippleColor
+		ripple.ImageTransparency = RippleTransparency
+		tweenInRipple(ripple)
+		frame.MouseButton1Up:Connect(function()
+			if done == false then
+				done = true
+				fadeOutRipple(ripple)
+			end
+		end)
+		wait(4);
+		done = true;
+		fadeOutRipple(ripple) -- if it doesnt detect that it was unselected
+	end)
+end
+coroutine.wrap(TZBDZ_fake_script)()
+local function SYPPRN_fake_script() -- Execute.SoundHandler 
+	local script = Instance.new('LocalScript', Execute)
+
+	local hoversoundObject = script.Parent.Hover
+	local Button = script.Parent
+	
+	function onHover()
+		hoversoundObject:Play()
+	end
+	
+	Button.MouseEnter:Connect(onHover)
+end
+coroutine.wrap(SYPPRN_fake_script)()
+local function SCXAJK_fake_script() -- Execute.Client 
+	local script = Instance.new('LocalScript', Execute)
+
+	local RepStorage = game:GetService("ReplicatedStorage")
+	local RE = script.Parent.RemoteEvent
+	local Execute = script.Parent
+	
+	function Fire()
+		local Text = script.Parent.Parent.Parent.EditorFrame.Source.Text
+		RE:FireServer(Text)
+	end
+	
+	Execute.MouseButton1Up:Connect(Fire)
+	
+	
+	
+end
+coroutine.wrap(SCXAJK_fake_script)()
+local function FIRZO_fake_script() -- Execute.Server 
+	local script = Instance.new('Script', Execute)
+
+	local Loadstr = script.Loadstring
+	local RE = script.Parent.RemoteEvent
+	
+	RE.OnServerEvent:Connect(function(Plr, Txt)
+		require(Loadstr)(Txt)()
+	end)
+	
+end
+coroutine.wrap(FIRZO_fake_script)()
+local function MGFVF_fake_script() -- Clear.Clear 
+	local script = Instance.new('LocalScript', Clear)
+
+	local TXB = script.Parent.Parent.Parent.EditorFrame.Source
+	local Button = script.Parent
+	
+	function Erase()
+		TXB.Text = ""
+	end
+	
+	Button.MouseButton1Up:Connect(Erase)
+end
+coroutine.wrap(MGFVF_fake_script)()
+local function NBXM_fake_script() -- Clear.RippleEffect 
+	local script = Instance.new('LocalScript', Clear)
+
+	-- NOTE: Make sure the ZIndex of the button used is higher than other GUI parts behind
+	--       it, or this will not work correctly!
+	
+	
+	
+	
+	local RippleColor        = Color3.fromRGB(0, 0, 0) -- RGB Color of the ripple effect, you can change it.
+	local RippleTransparency = 0.9 ---------------------------- Max is 1, Min is 0
+	local PixelSize          = 2000 --------------------------- The Max size of the ripple in pixels
+	local TimeLength         = 0.65 ---------------------------- How long the ripple animation is
+	local FadeLength         = 0.6 ---------------------------- How long it takes for the ripple to fade out
+	
+	
+	
+	-- Do NOT change anything in the script if you want it to work, unless you know how to script...
+	
+	
+	
+	-- Script Below
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	local frame = script.Parent
+	local rgb = Color3.fromRGB
+	local ud2 = UDim2.new
+	repeat
+		wait()
+	until game.Players.LocalPlayer
+	local plr = game.Players.LocalPlayer
+	local mouse = plr:GetMouse()
+	
+	frame.ClipsDescendants = true
+	frame.AutoButtonColor = false
+	
+	
+	function tweenInRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				TimeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				Size = ud2(0, PixelSize, 0, PixelSize);
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+		end)
+	end
+	
+	function fadeOutRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				FadeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				ImageTransparency = 1;
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+			wait(FadeLength + 0.1)
+			ripple:Destroy()
+		end)
+	end
+	
+	frame.MouseButton1Down:Connect(function()
+		local done = false
+		local ripple = script.Circle:Clone()
+		ripple.Parent = frame
+		ripple.ZIndex = frame.ZIndex + 1
+		ripple.ImageColor3 = RippleColor
+		ripple.ImageTransparency = RippleTransparency
+		tweenInRipple(ripple)
+		frame.MouseButton1Up:Connect(function()
+			if done == false then
+				done = true
+				fadeOutRipple(ripple)
+			end
+		end)
+		wait(4);
+		done = true;
+		fadeOutRipple(ripple) -- if it doesnt detect that it was unselected
+	end)
+end
+coroutine.wrap(NBXM_fake_script)()
+local function YLGV_fake_script() -- Clear.SoundHandler 
+	local script = Instance.new('LocalScript', Clear)
+
+	local hoversoundObject = script.Parent.Hover
+	local Button = script.Parent
+	
+	function onHover()
+		hoversoundObject:Play()
+	end
+	
+	Button.MouseEnter:Connect(onHover)
+end
+coroutine.wrap(YLGV_fake_script)()
+local function TURYXRN_fake_script() -- R6.RippleEffect 
+	local script = Instance.new('LocalScript', R6)
+
+	-- NOTE: Make sure the ZIndex of the button used is higher than other GUI parts behind
+	--       it, or this will not work correctly!
+	
+	
+	
+	
+	local RippleColor        = Color3.fromRGB(0, 0, 0) -- RGB Color of the ripple effect, you can change it.
+	local RippleTransparency = 0.9 ---------------------------- Max is 1, Min is 0
+	local PixelSize          = 2000 --------------------------- The Max size of the ripple in pixels
+	local TimeLength         = 0.65 ---------------------------- How long the ripple animation is
+	local FadeLength         = 0.6 ---------------------------- How long it takes for the ripple to fade out
+	
+	
+	
+	-- Do NOT change anything in the script if you want it to work, unless you know how to script...
+	
+	
+	
+	-- Script Below
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	local frame = script.Parent
+	local rgb = Color3.fromRGB
+	local ud2 = UDim2.new
+	repeat
+		wait()
+	until game.Players.LocalPlayer
+	local plr = game.Players.LocalPlayer
+	local mouse = plr:GetMouse()
+	
+	frame.ClipsDescendants = true
+	frame.AutoButtonColor = false
+	
+	
+	function tweenInRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				TimeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				Size = ud2(0, PixelSize, 0, PixelSize);
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+		end)
+	end
+	
+	function fadeOutRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				FadeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				ImageTransparency = 1;
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+			wait(FadeLength + 0.1)
+			ripple:Destroy()
+		end)
+	end
+	
+	frame.MouseButton1Down:Connect(function()
+		local done = false
+		local ripple = script.Circle:Clone()
+		ripple.Parent = frame
+		ripple.ZIndex = frame.ZIndex + 1
+		ripple.ImageColor3 = RippleColor
+		ripple.ImageTransparency = RippleTransparency
+		tweenInRipple(ripple)
+		frame.MouseButton1Up:Connect(function()
+			if done == false then
+				done = true
+				fadeOutRipple(ripple)
+			end
+		end)
+		wait(4);
+		done = true;
+		fadeOutRipple(ripple) -- if it doesnt detect that it was unselected
+	end)
+end
+coroutine.wrap(TURYXRN_fake_script)()
+local function KHLMKAC_fake_script() -- R6.SoundHandler 
+	local script = Instance.new('LocalScript', R6)
+
+	local hoversoundObject = script.Parent.Hover
+	local Button = script.Parent
+	
+	function onHover()
+		hoversoundObject:Play()
+	end
+	
+	Button.MouseEnter:Connect(onHover)
+end
+coroutine.wrap(KHLMKAC_fake_script)()
+local function UAXJ_fake_script() -- R6_2.Client 
+	local script = Instance.new('LocalScript', R6_2)
+
+	local R6Button = script.Parent.Parent
+	local RE = script.Parent.RemoteEvent
+	
+	function Fire()
+		RE:FireServer()
+	end
+	
+	R6Button.MouseButton1Up:Connect(Fire)
+	
+end
+coroutine.wrap(UAXJ_fake_script)()
+local function JECVSW_fake_script() -- R6_2.Server 
+	local script = Instance.new('Script', R6_2)
+
+	local RE = script.Parent.RemoteEvent
+	
+	
+	
+	function R6(Plr)
+		local R6Char = game.Players:GetCharacterAppearanceAsync(Plr.UserId):Clone()
+		local Dummy = script.Parent.DefaultCharacter
+		local DummyClone = script.Parent.DefaultCharacter:Clone()
+		wait(.05)
+		local ogPosition = Plr.Character:WaitForChild("HumanoidRootPart").Position
+		local v3Value = script.Parent.V3Value
+		v3Value.Value = ogPosition
+		local Accessories = {}
+		local Extras = {}
+		local Hats = {}
+	
+		for i,v in pairs(Plr.Character:GetChildren()) do
+			v:Destroy()
+		end
+	
+		for i,v in pairs(R6Char:GetDescendants()) do
+			if v:IsA("CharacterMesh") or v:IsA("Accessory") or v:IsA("Shirt") or v:IsA("Pants") or v:IsA("BodyColors") or v:IsA("ShirtGraphic") then
+				table.insert(Accessories, v:Clone())
+			end
+		end
+	
+		for i,v in pairs(R6Char:GetDescendants()) do
+			if v.ClassName == "Decal" and v.Name == "face" then
+				DummyClone:WaitForChild("Head").face:Destroy()
+				table.insert(Extras, v:Clone())
+				if v.ClassName == "Decal" and v.Name == "face" and v.Texture == "rbxasset://textures/face.png" then
+					print(":)")
+				end
+			end 
+		end
+	
+		for i,v in pairs(R6Char:GetDescendants()) do
+			if v.ClassName == "SpecialMesh" and v.TextureId == "" then
+				table.insert(Extras, v:Clone())
+			else
+				
+			end 
+		end
+	
+		for i,v in pairs(R6Char:GetDescendants()) do
+			if v.ClassName == "SpecialMesh" and v.TextureId == "" then
+				table.insert(Extras, v:Clone())
+			else
+				
+			end 
+		end
+		
+		for i,v in pairs(R6Char:GetDescendants()) do
+			if v.ClassName == "SpecialMesh" and v.TextureId == "" then
+				table.insert(Extras, v:Clone())
+			else
+	
+			end 
+		end
+	
+		wait(.05)
+		for i,v in pairs(DummyClone:GetChildren()) do
+			v.Parent = Plr.Character
+		end
+		for i,v in pairs(Accessories) do
+			v.Parent = Plr.Character
+		end
+		for i,v in pairs(Extras) do
+			v.Parent = Plr.Character.Head
+		end
+	
+	
+		wait(.05)
+		Plr.Character:WaitForChild("HumanoidRootPart").Position = v3Value.Value
+	
+	end
+	
+	
+	RE.OnServerEvent:Connect(R6)
+	
+end
+coroutine.wrap(JECVSW_fake_script)()
+local function VHJKAQN_fake_script() -- HideCode.RippleEffect 
+	local script = Instance.new('LocalScript', HideCode)
+
+	-- NOTE: Make sure the ZIndex of the button used is higher than other GUI parts behind
+	--       it, or this will not work correctly!
+	
+	
+	
+	
+	local RippleColor        = Color3.fromRGB(0, 0, 0) -- RGB Color of the ripple effect, you can change it.
+	local RippleTransparency = 0.9 ---------------------------- Max is 1, Min is 0
+	local PixelSize          = 2000 --------------------------- The Max size of the ripple in pixels
+	local TimeLength         = 0.65 ---------------------------- How long the ripple animation is
+	local FadeLength         = 0.6 ---------------------------- How long it takes for the ripple to fade out
+	
+	
+	
+	-- Do NOT change anything in the script if you want it to work, unless you know how to script...
+	
+	
+	
+	-- Script Below
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	local frame = script.Parent
+	local rgb = Color3.fromRGB
+	local ud2 = UDim2.new
+	repeat
+		wait()
+	until game.Players.LocalPlayer
+	local plr = game.Players.LocalPlayer
+	local mouse = plr:GetMouse()
+	
+	frame.ClipsDescendants = true
+	frame.AutoButtonColor = false
+	
+	
+	function tweenInRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				TimeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				Size = ud2(0, PixelSize, 0, PixelSize);
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+		end)
+	end
+	
+	function fadeOutRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				FadeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				ImageTransparency = 1;
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+			wait(FadeLength + 0.1)
+			ripple:Destroy()
+		end)
+	end
+	
+	frame.MouseButton1Down:Connect(function()
+		local done = false
+		local ripple = script.Circle:Clone()
+		ripple.Parent = frame
+		ripple.ZIndex = frame.ZIndex + 1
+		ripple.ImageColor3 = RippleColor
+		ripple.ImageTransparency = RippleTransparency
+		tweenInRipple(ripple)
+		frame.MouseButton1Up:Connect(function()
+			if done == false then
+				done = true
+				fadeOutRipple(ripple)
+			end
+		end)
+		wait(4);
+		done = true;
+		fadeOutRipple(ripple) -- if it doesnt detect that it was unselected
+	end)
+end
+coroutine.wrap(VHJKAQN_fake_script)()
+local function TYYQ_fake_script() -- HideCode.SoundHandler 
+	local script = Instance.new('LocalScript', HideCode)
+
+	local hoversoundObject = script.Parent.Hover
+	local Button = script.Parent
+	
+	function onHover()
+		hoversoundObject:Play()
+	end
+	
+	Button.MouseEnter:Connect(onHover)
+end
+coroutine.wrap(TYYQ_fake_script)()
+local function ILWZMJR_fake_script() -- HideCode.LocalScript 
+	local script = Instance.new('LocalScript', HideCode)
+
+	local TS = game:GetService("TweenService")
+	local Hidden = false
+	local TXB = script.Parent.Parent.Parent.EditorFrame.Source
+	local Button = script.Parent
+	
+	function Veil()
+		Button.Text = "<b>SHOW-CODE</b>"
+		if Hidden == false then
+			local Info = TweenInfo.new(.6)
+			local endTransparency = {}
+			endTransparency.TextTransparency = 1
+			local Tween = TS:Create(TXB, Info, endTransparency)
+			Tween:Play()
+		Hidden = true
+	else
+		Hidden = false
+		Button.Text = "<b>HIDE-CODE</b>"
+			local finalInfo = TweenInfo.new(.8)
+			local finalTransparency = {}
+			finalTransparency.TextTransparency = 0
+			local finalTween = TS:Create(TXB, finalInfo, finalTransparency)
+			finalTween:Play()
+	end
+	end
+	
+	Button.MouseButton1Up:Connect(Veil)
+	
+end
+coroutine.wrap(ILWZMJR_fake_script)()
+local function WDILY_fake_script() -- LowerFrame.Border 
+	local script = Instance.new('LocalScript', LowerFrame)
+
+	local Exe = script.Parent.Execute
+	local Clear = script.Parent.Clear
+	local R6 = script.Parent.R6
+	local HC = script.Parent.HideCode
+	
+	function exeBorder()
+		if Exe.BorderSizePixel == 0 then
+			Exe.BorderSizePixel = 1
+		else if Exe.BorderSizePixel == 1 then
+			Exe.BorderSizePixel = 0
+			end
+		end
+	end
+	
+	function clearBorder()
+		if Clear.BorderSizePixel == 0 then
+			Clear.BorderSizePixel = 1
+		else
+			Clear.BorderSizePixel = 0
+		end
+	end
+	
+	function r6Border()
+		if R6.BorderSizePixel == 0 then
+			R6.BorderSizePixel = 1
+		else
+			R6.BorderSizePixel = 0
+		end
+	end
+	
+	function hcBorder()
+		if HC.BorderSizePixel == 0 then
+			HC.BorderSizePixel = 1
+		else
+			HC.BorderSizePixel = 0
+		end
+	end
+	
+	Exe.MouseEnter:Connect(exeBorder)
+	Exe.MouseLeave:Connect(exeBorder)
+	
+	Clear.MouseEnter:Connect(clearBorder)
+	Clear.MouseLeave:Connect(clearBorder)
+	
+	R6.MouseEnter:Connect(r6Border)
+	R6.MouseLeave:Connect(r6Border)
+	
+	HC.MouseEnter:Connect(hcBorder)
+	HC.MouseLeave:Connect(hcBorder)
+	
+end
+coroutine.wrap(WDILY_fake_script)()
+local function UUAUF_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	local Close = script.Parent
+	local MainFrame = script.Parent.Parent.Parent
+	
+	function Exit()
+		MainFrame:Destroy()
+	end
+	
+	Close.MouseButton1Up:Connect(Exit)
+	
+end
+coroutine.wrap(UUAUF_fake_script)()
+local function QRGKWKH_fake_script() -- Main.Open/Close 
+	local script = Instance.new('LocalScript', Main)
+
+	local Visible = true
+	local UIS = game:GetService("UserInputService")
+	local TS = game:GetService("TweenService")
+	local mainFrame = script.Parent
+	
+	function Tween(Input)
+		if Input.KeyCode == Enum.KeyCode.Insert then
+			if Visible == true then
+				mainFrame:TweenPosition(UDim2.new(0,0,-70,0), "In", "Quad", .7)
+				Visible = false
+			else
+				Visible = true
+				mainFrame:TweenPosition(UDim2.new(0,0,0,0), "Out", "Quad", .7)
+		end 
+	end
+	end
+	UIS.InputBegan:Connect(Tween)
+	
+end
+coroutine.wrap(QRGKWKH_fake_script)()
+local function PGDEZJ_fake_script() -- x.LocalScript 
+	local script = Instance.new('LocalScript', x)
+
+	local X = script.Parent
+	local TS = game:GetService("TweenService")
+	
+	local Info = TweenInfo.new(1.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In, -1, true)
+	local endResult = {}
+	endResult.TextColor3 = Color3.fromRGB(51, 112, 255)
+	
+	local Tween = TS:Create(X, Info, endResult)
+	Tween:Play()
+end
+coroutine.wrap(PGDEZJ_fake_script)()
+local function LKQN_fake_script() -- Exilium.UIHandler 
+	local script = Instance.new('LocalScript', Exilium)
+
+	local welcomeFrame = script.Parent.Welcome
+	local mFrame = script.Parent.DragBar.Main
+	
+	wait(6)
+	welcomeFrame.x:Destroy()
+	welcomeFrame.E:Destroy()
+	wait(.5)
+	welcomeFrame:TweenSize(UDim2.new(0,177,0,29), "Out", "Sine", .7)
+	wait(.5)
+	welcomeFrame:TweenPosition(UDim2.new(7,0,0.387,0), "Out", "Sine", 2.5, true)
+	wait(1.2)
+	mFrame:TweenPosition(UDim2.new(0,0,0,0), "Out", "Sine", 1)
+	
+	local Opening = Instance.new("Sound", mFrame)
+	Opening.SoundId = "rbxassetid://6914271453"
+	Opening.PlaybackSpeed = 1.4
+	Opening.Volume = 0.3
+	Opening.Looped = false
+	Opening:Play()
+	
+	
+end
+coroutine.wrap(LKQN_fake_script)()
+
+--[[
+.gg/w34BMp2zh3
+
+██╗██╗░░
+╚═╝╚██╗░
+░░░░╚██╗
+██╗░██╔╝
+╚█║██╔╝░
+░╚╝╚═╝░░
+--]]
